@@ -1,0 +1,51 @@
+linux(ubuntu16.04)
+1、准备工作
+	1）linux操作系统
+		ubuntu
+		红帽子
+		树莓派
+		深度桌面版（linux操作系统）
+
+		1、双系统 ubuntu/windows
+		2、虚拟机
+		3、云服务器
+			客户端
+			终端工具     云服务器
+				xshell   阿里云
+				putty    腾讯云
+	2）linux特点
+		1.性能强劲，运行稳定，一般作为服务器
+		2.整个操作系统可以被压缩成很小的文件，容易植入一些硬件设备中
+			飞行器
+		3.开源免费
+		4.对于初学者容易建立编程思维，是学习编程语言最好的环境
+
+	5.文件系统
+		没有盘符的概念，所有的文件都处于根目录下，目录也是一种特殊的文件
+2、使用
+	1）linux
+		登录成功
+	2）用户管理（超级管理员身份）
+		root/默认密码（重置密码）
+		使用root登录到Ubuntu系统中
+
+		1.创建新用户
+			$adduser 用户名
+		
+
+
+vsftpd安装
+	作用：可以使用ftp工具或者命令将客户机上的文件上传到服务器上
+
+	server:ftp服务器程序 vsftpd
+	client:ftp客户端程序 fillzilla
+
+	关闭进程：
+		$ps -ef | grep vsftpd
+		$kill -9 pid
+		# 或者
+
+
+	安装过程：
+		1.使用apt安装
+			$sudo apt install vsftpd
